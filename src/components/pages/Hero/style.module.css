@@ -33,5 +33,5 @@
   margin: 25px 0;
   display: flex;
   gap: 10px;
-  margin-left: 10px;
+  justify-content: center;
 }
