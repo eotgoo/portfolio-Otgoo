@@ -216,8 +216,10 @@ const Hero = () => {
 
       <div className={Style.HeroItem}>
         <div>
-          <h1>Hello My name is Otgonchimeg</h1>
           <h1>
+            Hello My name is <span>Otgonchimeg</span>
+          </h1>
+          <h2>
             I am the{" "}
             <span style={{ color: "#ababab" }}>
               <Typewriter
@@ -225,7 +227,7 @@ const Hero = () => {
                 loop={false}
               />
             </span>
-          </h1>
+          </h2>
           <div className={Style.Icons}>
             <SocialIcon
               network="instagram"

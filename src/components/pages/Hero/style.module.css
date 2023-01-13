@@ -12,10 +12,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #2a0944;
   z-index: 1000;
 }
-
+.HeroItem h1 {
+  font-size: 48px;
+  color: #ff7000;
+  font-weight: 600;
+}
+.HeroItem h1 span {
+  color: #000;
+  font-size: 56px;
+}
+.HeroItem h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+.HeroItem h2 span {
+  color: #ff7000;
+  font-weight: 600;
+}
 .ImgContainer {
   max-width: 500px;
   height: 500px;
@@ -30,8 +45,8 @@
 
 .Icons {
   width: 100%;
-  margin: 25px 0;
+  margin: 30px 0;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
 }

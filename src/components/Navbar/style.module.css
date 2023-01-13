@@ -2,15 +2,16 @@
   z-index: 1000;
 }
 .navLogo img {
-  width: 50px;
+  width: 60px;
 }
 .navMenu a {
   color: black;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .navMenu a:hover {
   color: #ff7000;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 600;
 }
