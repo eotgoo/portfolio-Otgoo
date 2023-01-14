@@ -5,12 +5,12 @@
   width: 50px;
 }
 .navMenu a {
-  color: black;
-  font-weight: 500;
-  font-size: 18px;
+  color: #2a0944;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .navMenu a:hover {
   color: #ff7000;
-  font-size: 20px;
+  font-size: 24px;
 }

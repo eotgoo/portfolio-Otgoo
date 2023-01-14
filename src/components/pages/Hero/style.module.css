@@ -12,10 +12,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #2a0944;
   z-index: 1000;
 }
-
+.HeroItem h1 {
+  font-size: 48px;
+  color: #2a0944;
+}
+.HeroItem h1 span {
+  color: #ff7000;
+  font-size: 50px;
+}
+.HeroItem h2 {
+  font-size: 36px;
+  color: #2a0944;
+}
+.HeroItem h2 span {
+  font-size: 38px;
+  color: #ff7000;
+}
 .ImgContainer {
   max-width: 500px;
   height: 500px;
@@ -25,13 +39,12 @@
 .ImgContainer > img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
 }
 
 .Icons {
   width: 100%;
   margin: 25px 0;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
 }
