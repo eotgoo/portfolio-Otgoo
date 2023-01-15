@@ -217,6 +217,9 @@ const Hero = () => {
       <div className={Style.HeroItem} id="#home">
         <div>
           <h1>
+            Hello, My name is <span>Otgonchimeg</span>
+          </h1>
+          <h2>
             I am the{" "}
             <span style={{ color: "#ababab" }}>
               <Typewriter
