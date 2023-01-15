@@ -1,0 +1,55 @@
+.aboutMain {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  z-index: 1000;
+}
+
+.aboutTitle h1 {
+  font-size: 56px;
+  color: #39b5e0;
+  font-weight: 800;
+}
+.aboutContent {
+  margin-top: 100px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.aboutImage {
+  max-width: 300px;
+  height: 300px;
+}
+.aboutImage > img {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutItem {
+  text-align: start;
+}
+
+.aboutItem h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #2a0944;
+}
+.aboutItem p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.abtbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-weight: 600;
+}
+.abtText p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0081c9;
+}
+.abtText p span {
+  color: #2a0944;
+}

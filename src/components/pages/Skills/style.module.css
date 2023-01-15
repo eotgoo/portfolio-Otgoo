@@ -1,0 +1,81 @@
+.Container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+}
+.Container h1 {
+  font-size: 56px;
+  font-weight: 800;
+}
+.Container h1 span {
+  color: #39b5e0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* react logo */
+.react {
+  width: 250px;
+  height: 250px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reactlogo {
+  display: inline-block;
+  border-radius: 50%;
+  border: 10px solid #00d8ff;
+
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.reactlogo,
+.reactlogo:before,
+.reactlogo:after {
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 70px;
+  border-radius: 50%;
+  border: 10px solid #00d8ff;
+}
+
+.nucleo,
+.reactlogo,
+.reactlogo:before,
+.reactlogo:after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nucleo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #00d8ff;
+}
+
+.reactlogo:before,
+.reactlogo:after {
+  content: "";
+}
+
+.reactlogo:after {
+  transform: rotate(-57deg);
+}
+
+.reactlogo:before {
+  transform: rotate(57deg);
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* js logo */
