@@ -3,7 +3,7 @@ import Styles from "./style.module.css";
 import { Wave } from "react-animated-text";
 const About = () => {
   return (
-    <div className={Styles.aboutMain}>
+    <div className={Styles.aboutMain} id="about">
       <div className={Styles.aboutTitle}>
         <h1>
           {" "}

@@ -4,7 +4,7 @@ import Styles from "./style.module.css";
 const Skills = () => {
   return (
     <div>
-      <div className={Styles.Container}>
+      <div className={Styles.Container} id="skills">
         <h1>
           Skills&<span>Abilities</span>
         </h1>

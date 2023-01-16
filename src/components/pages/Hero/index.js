@@ -214,7 +214,7 @@ const Hero = () => {
         loaded={particlesLoaded}
       />
 
-      <div className={Style.HeroItem} id="#home">
+      <div className={Style.HeroItem} id="home">
         <div>
           <h1>
             Hello, My name is <span>Otgonchimeg</span>
