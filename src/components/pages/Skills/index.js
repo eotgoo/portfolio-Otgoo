@@ -1,4 +1,5 @@
 import React from "react";
+import { skillsData } from "../../data/skills";
 import Styles from "./style.module.css";
 const Skills = () => {
   return (
@@ -8,16 +9,14 @@ const Skills = () => {
           Skills&<span>Abilities</span>
         </h1>
         <div className={Styles.Logo}>
-          <div className={Styles.react}>
-            <span className={Styles.reactlogo}>
-              <span className={Styles.nucleo}></span>
-            </span>
-          </div>
-
-          <div className={Styles.js}>
-            <h1>J</h1>
-            <h1>S</h1>
-          </div>
+          {skillsData.map((x, index) => {
+            return (
+              <div key={index}>
+                <img src={x.image} alt="" className={Styles.image} />
+                <h2 className={Styles.name}>{x.title}</h2>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
