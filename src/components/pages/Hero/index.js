@@ -23,10 +23,7 @@ const Hero = () => {
             </span>
           </h2>
           <div className={Style.Icons}>
-            <SocialIcon
-              network="instagram"
-              url="https://www.instagram.com/otgnchmge/"
-            />
+            <SocialIcon network="instagram" url="https://www.instagram.com/" />
             <SocialIcon
               network="youtube"
               url="https://www.youtube.com/watch?v=IJNR2EpS0jw"
