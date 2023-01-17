@@ -31,10 +31,7 @@ const Hero = () => {
               network="youtube"
               url="https://www.youtube.com/watch?v=IJNR2EpS0jw"
             />
-            <SocialIcon
-              network="facebook"
-              url="https://www.facebook.com/people/13-%D0%B4%D0%B0%D1%85%D1%8C-%D1%85%D0%B0%D1%8F%D0%B3%D0%B3%D2%AF%D0%B9-%D0%B8%D0%BB-%D0%B7%D0%B0%D1%85%D0%B8%D0%B4%D0%B0%D0%BB/100063945570087/?mibextid=LQQJ4d"
-            />
+            <SocialIcon network="facebook" url="https://www.facebook.com/" />
           </div>
         </div>
       </div>
