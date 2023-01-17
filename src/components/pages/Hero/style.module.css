@@ -33,6 +33,7 @@
 .ImgContainer {
   max-width: 500px;
   height: 500px;
+  animation-name: anime1;
 }
 
 .ImgContainer > img {
