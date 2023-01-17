@@ -1,8 +1,9 @@
 import React from "react";
 import Styles from "./style.module.css";
+import Particle from "../../../Particle";
 
 const Projects = () => {
-  return <div className={Styles.Container}></div>;
+  return <></>;
 };
 
 export default Projects;

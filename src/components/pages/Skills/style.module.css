@@ -7,9 +7,7 @@
 .Container h1 {
   font-size: 56px;
   font-weight: 800;
-}
-.Container h1 span {
-  color: #39b5e0;
+  color: #fed049;
 }
 .Logo {
   margin-top: 100px;
@@ -19,12 +17,25 @@
   align-items: center;
   justify-content: center;
 }
+.box {
+  border: 2px solid orange;
+  width: 200px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.box:hover {
+  background-color: azure;
+}
 .image {
-  max-width: 150px;
-  height: 125px;
+  max-width: 100px;
+  height: 50px;
 }
 .name {
-  margin-top: 20px;
-  color: #39b5e0;
-  font-weight: 700;
+  margin-top: 16px;
+  color: #000;
+  font-weight: 600;
 }

@@ -1,9 +1,11 @@
 import React from "react";
 import Styles from "./style.module.css";
 import { Wave } from "react-animated-text";
+import Particle from "../../../Particle";
 const About = () => {
   return (
     <div className={Styles.aboutMain} id="about">
+      <Particle />
       <div className={Styles.aboutTitle}>
         <h1>
           {" "}
