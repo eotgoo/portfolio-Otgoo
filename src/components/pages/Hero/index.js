@@ -29,6 +29,7 @@ const Hero = () => {
               url="https://www.youtube.com/watch?v=IJNR2EpS0jw"
             />
             <SocialIcon network="facebook" url="https://www.facebook.com/" />
+            <SocialIcon network="github" url="https://github.com/eotgoo" />
           </div>
         </div>
       </div>
