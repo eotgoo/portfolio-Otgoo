@@ -1,12 +1,10 @@
 import React from "react";
 import Styles from "./style.module.css";
 import { Wave } from "react-animated-text";
-import Particle from "../../../Particle";
 const Eductaion = () => {
   return (
     <div>
       <div className={Styles.Container}>
-        <Particle />
         <h1>
           <Wave text="EDUCATION" />
         </h1>

@@ -5,7 +5,6 @@ import Particle from "../../../Particle";
 const About = () => {
   return (
     <div className={Styles.aboutMain} id="about">
-      <Particle />
       <div className={Styles.aboutTitle}>
         <h1>
           {" "}

@@ -25,6 +25,34 @@
 .aboutImage > img {
   width: 100%;
   height: 100%;
+  animation-name: anime;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes anime {
+  0%,
+  7% {
+    transform: rotateZ(4);
+  }
+  15% {
+    transform: rotateZ(-20deg);
+  }
+  20% {
+    transform: rotateZ(20deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(10deg);
+  }
+  35% {
+    transform: rotateZ(-8deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(6);
+  }
 }
 
 .aboutItem {

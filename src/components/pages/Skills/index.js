@@ -7,16 +7,14 @@ const Skills = () => {
   return (
     <div>
       <div className={Styles.Container} id="skills">
-        <Particle />
         <h1>
           <Wave text="SKILLS & ABILITIES" />
         </h1>
         <div className={Styles.Logo}>
           {skillsData.map((x, index) => {
             return (
-              <div key={index} className={Styles.box}>
+              <div key={index} className={Styles.logo}>
                 <img src={x.image} alt="" className={Styles.image} />
-                <h2 className={Styles.name}>{x.title}</h2>
               </div>
             );
           })}
