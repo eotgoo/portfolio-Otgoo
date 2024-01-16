@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className={Styles.aboutItem}>
           <h2>I'm Otgoo</h2>
-          <p> Mmmm..., trying my best.</p>
+          <p>..................</p>
           <div className={Styles.abtbox}>
             <div className={Styles.abtText}>
               <p>
@@ -29,10 +29,10 @@ const About = () => {
             </div>
             <div className={Styles.abtText}>
               <p>
-                Phone: <span>+976 96750533</span>
+                Phone: <span>+976</span>
               </p>
               <p>
-                Place: <span>u know haha</span>
+                Place: <span></span>
               </p>
             </div>
           </div>
